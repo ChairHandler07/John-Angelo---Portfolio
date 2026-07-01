@@ -27,6 +27,17 @@ const PROJECTS_DATA = [
     credentials: [
       { type: "image", label: "Dashboard Preview", src: "/bloodbank_image.png" }
     ]
+  },
+  {
+    id: "hotellium",
+    title: "Online Booking Hotel Reservation System for Tourists and Travelers",
+    fullDesc: "Developed a web-based hotel reservation system that allows users to book rooms online. The system provides an easy-to-use interface for both customers and hotel administrators, streamlining the booking process and improving overall user experience.",
+    hardware: ["PHP", "Laravel Framework", "MySQL", "CSS Bootstrap"],
+    credentials: [
+      { type: "image", label: "Hotel Booking Interface", src: "/hotellium_interface.png" },
+      { type: "image", label: "Client Dashboard Interface", src: "/hotellium_dashboard.png" },
+      { type: "image", label: "Admin Dashboard Interface", src: "/hotellium_admin.png" }
+    ]
   }
 ];
 
@@ -70,7 +81,7 @@ export default function ProjectDetailPage({ projectId, onBack }) {
           <aside className="project-sidebar">
             {project.hardware && (
               <div className="page-section">
-                <h4>Technologies Used</h4>
+                <h4>Tech Stack</h4>
                 <ul className="hardware-list">
                   {project.hardware.map((item, i) => (
                     <li key={i}>

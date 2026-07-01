@@ -9,7 +9,7 @@ const PROJECTS = [
   },
   {
     id: "lpg-iot",
-    title: "IoT-enabled LPG Leak Detection & Safety System",
+    title: "IoT-enabled LPG Leak Detection and Safety System",
     shortDesc: "Hardware and software development for LPG automation utilizing ESP32 microcontroller.",
     category: "iot"
   },
@@ -17,6 +17,12 @@ const PROJECTS = [
     id: "blood-bank",
     title: "Software Design: Blood Bank Management System",
     shortDesc: "Web dashboard created to improve data exchange and enrich scalability.",
+    category: "software"
+  },
+  {
+    id: "hotellium",
+    title: "Online Booking Hotel Reservation System for Tourists and Travelers",
+    shortDesc: "A web-based hotel reservation system that allows users to book rooms online.",
     category: "software"
   }
 ];

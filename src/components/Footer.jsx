@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-col footer-brand">
         <h4>Angelo Concepcion</h4>
-        <p className="footer-tagline">Computer Engineer &middot; Full-Stack Developer</p>
+        <p className="footer-tagline">Computer Engineer &middot; Software Engineer</p>
       </div>
       <div className="footer-col">
         <h4>Connect</h4>
@@ -13,7 +13,7 @@ export default function Footer() {
         <a href="mailto:johnangeloconcepcion8@gmail.com">
           <i className="fa-solid fa-envelope"></i> Email
         </a>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/ChairHandler07" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-github"></i> GitHub
         </a>
       </div>

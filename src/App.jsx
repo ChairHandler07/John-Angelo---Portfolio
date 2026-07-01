@@ -43,14 +43,14 @@ export default function Portfolio() {
     const month = date.getMonth();
     if (month >= 8) {
       const flakes = [];
-      for (let i = 0; i < 40; i++) {
+      for (let i = 0; i < 60; i++) {
         const snow = document.createElement("div");
         snow.className = "snowflake";
-        const size = Math.random() * 3 + 2;
+        const size = Math.random() * 4 + 2;
         snow.style.width = size + "px";
         snow.style.height = size + "px";
         snow.style.left = Math.random() * 100 + "vw";
-        snow.style.animation = `snowFall ${Math.random() * 5 + 3}s linear infinite`;
+        snow.style.animation = `snowFall ${Math.random() * 6 + 4}s linear infinite`;
         snow.style.animationDelay = Math.random() * 5 + "s";
         document.body.appendChild(snow);
         flakes.push(snow);
